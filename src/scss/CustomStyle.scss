@@ -8,7 +8,6 @@ body {
     .ContentBox {
         height: 100%;
         transition: transform .5s;
-        // background-color: #ddddaa;
         margin: 0 auto;
     }
     section.PageBox {
@@ -96,8 +95,8 @@ body {
                 }
             }
             .box02 {
-                right: 150px;
-                top: 350px;
+                right: 80px;
+                top: 399px;
                 position: absolute;
                 h2,h3 {
                     display: inline-block;
@@ -110,7 +109,7 @@ body {
                     }
                 }
                 .txt {
-                    font-size: 30px;
+                    font-size: 38px;
                 }
                 .MBox {
                     display: none;
@@ -131,7 +130,10 @@ body {
             .box01 {
                 margin-bottom: 15px;
                 h2 {
-                    margin-bottom: 25px;
+                    margin-bottom: 55px;
+                }
+                p {
+                    margin-bottom: 15px;  
                 }
                 .ml2 {
                     font-weight: 900;
@@ -169,7 +171,7 @@ body {
                 }
             }
             .box02 {
-                margin-bottom: 15px;
+                margin: 30px 0 40px;
                 img {
                     width: 100%;
                 }
@@ -203,7 +205,7 @@ body {
             .box {
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: end;
                 flex-direction: column;
             }
             .box01 {
@@ -242,22 +244,23 @@ body {
                 padding: 10px;
                 h3 {
                     color: #c3992f;
-                    font-size: 32px;
+                    font-size: 36px;
                 }
                 .ItemBox {
                     margin: 60px 0 0 0;
                     padding: 0 0 0 40px;
-                    // padding-left: 40px;
-                    // margin-left: 0;
-                    // padding-right: 0;
-                    // margin-top: 60px;
                 }
                 .ItemBox li {
                     counter-increment: step-counter;
-                    margin-bottom: 50px;
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
                     position: relative;
                     h3 {
-                        margin-bottom: 10px;
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        font-size: 24px;
+                        line-height: 32px;
                     }
                 }
                 .ItemBox li::before {
@@ -298,8 +301,14 @@ body {
                     margin-bottom: 30px;
                 }
                 h2 {
-                    margin-top: 25px;
-                    margin-bottom: 25px;
+                    font-size: 77px;
+                    margin: 25px 0 40px;
+                }
+                p {
+                    &:nth-child(5) {
+                        margin-top: 30px;
+                        font-size: 50px;
+                    }
                 }
                 .txt {
                     margin-bottom: 10px;
@@ -352,7 +361,7 @@ body {
         }
     }
     h2 {
-        font-size: 46px;
+        font-size: 50px;
         font-weight: 700;
         letter-spacing: 1.4px;
         color: #c3992f;
@@ -363,14 +372,14 @@ body {
         letter-spacing: 1px;
     }
     .txt {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 30px;
+        line-height: 40px;
     }
     .txt-b {
         font-size: 34px;
     }
     .txt-o {
-        opacity: .7;
+        opacity: .6;
     }
     .title-block {
         transform: translate3d(500px, 0, 0);
