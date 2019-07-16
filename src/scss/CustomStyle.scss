@@ -16,6 +16,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
         .PB-inner {
             align-items: flex-start;
             display: flex;
@@ -42,7 +43,7 @@ body {
                     max-width: 240%;
                     height: auto;
                 }
-                
+
                 .ImgItemBox {
                     .item {
                         transition-timing-function: ease;
@@ -133,7 +134,7 @@ body {
                     margin-bottom: 55px;
                 }
                 p {
-                    margin-bottom: 15px;  
+                    margin-bottom: 15px;
                 }
                 .ml2 {
                     font-weight: 900;
@@ -148,7 +149,7 @@ body {
                     margin-top: 15px;
                 }
             }
-            
+
         }
         .PBi-03 {
             display: flex;
@@ -171,7 +172,7 @@ body {
                 }
             }
             .box02 {
-                margin: 30px 0 40px;
+                margin: 30px 0 80px;
                 img {
                     width: 100%;
                 }
@@ -194,8 +195,6 @@ body {
             }
             .MBox {
                 display: none;
-            }
-            .box03 {
             }
         }
         .PBi-04 {
@@ -275,9 +274,6 @@ body {
                 }
             }
             .box02 {
-                // box-shadow: 2px 2px 2px rgba(15, 14, 16, 0.15), 4px 4px 6px rgba(15, 14, 16, 0.2), 6px 6px 12px rgba(15, 14, 16, 0.5);
-                // border-radius: 25px;
-                // border: 10px solid #00000059;
                 width: 800px;
                 img {
                     width: 100%;
@@ -328,13 +324,10 @@ body {
                     height: auto;
                 }
             }
-            // .bottom-bg {
-            //     background-image: url(../images/pg06/item-bottom.png);
-            // }
             &:after {
                 content: url(../images/pg06/item-bottom.png);
-                position: fixed;
-                margin-top: 330px;
+                position: absolute;
+                bottom: 0;
                 left: 0;
                 width: 100%;
                 height: 200px;
@@ -376,7 +369,7 @@ body {
         line-height: 40px;
     }
     .txt-b {
-        font-size: 34px;
+        font-size: 42px;
     }
     .txt-o {
         opacity: .6;
