@@ -156,10 +156,6 @@ body {
   font-size: 38px;
 }
 
-.wrap section.PageBox .PBi-01 .box02 .MBox {
-  display: none;
-}
-
 .wrap section.PageBox .PBi-02 {
   display: -webkit-flex;
   display: flex;
@@ -272,10 +268,6 @@ body {
   100% {
     color: #d6d6d6;
   }
-}
-
-.wrap section.PageBox .PBi-03 .MBox {
-  display: none;
 }
 
 .wrap section.PageBox .PBi-04 {
@@ -413,6 +405,14 @@ body {
   flex-direction: column;
 }
 
+.wrap section.PageBox .PBi-06 .PCBox {
+  display: block;
+}
+
+.wrap section.PageBox .PBi-06 .MBox {
+  display: none;
+}
+
 .wrap section.PageBox .PBi-06 .box01 img {
   margin-bottom: 30px;
 }
@@ -456,6 +456,14 @@ body {
   left: 0;
   width: 100%;
   height: 200px;
+}
+
+.wrap section.PageBox .PBi-01 .box02 .PCBox, .wrap section.PageBox .PBi-03 .PCBox {
+  display: block;
+}
+
+.wrap section.PageBox .PBi-01 .box02 .MBox, .wrap section.PageBox .PBi-03 .MBox {
+  display: none;
 }
 
 .wrap section.PageBox:nth-child(1) {
@@ -646,18 +654,14 @@ body {
   .wrap {
     width: 100%;
     height: auto;
+    letter-spacing: 1px;
   }
   .wrap section.PageBox {
     height: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
   .wrap section.PageBox .PB-inner {
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-    max-width: 1440px;
     width: 100%;
     margin: 20px auto 0;
   }
@@ -682,6 +686,15 @@ body {
     margin: 0 auto;
     position: relative;
   }
+  .wrap section.PageBox .PBi-01 .box02 .PCBox {
+    display: none;
+  }
+  .wrap section.PageBox .PBi-01 .box02 .MBox {
+    display: block;
+  }
+  .wrap section.PageBox .PBi-01 .box02 .m-logo {
+    margin: 0 0 10px 0;
+  }
   .wrap section.PageBox .PBi-01 .box02 h2 {
     margin-bottom: 25px;
   }
@@ -698,25 +711,52 @@ body {
   .wrap section.PageBox .PBi-02 .box02 img {
     width: 100%;
   }
-  .wrap section.PageBox .PBi-01 .PCBox, .wrap section.PageBox .PBi-03 .PCBox {
+  .wrap section.PageBox .PBi-03 .PCBox {
     display: none;
   }
-  .wrap section.PageBox .PBi-01 .MBox, .wrap section.PageBox .PBi-03 .MBox {
+  .wrap section.PageBox .PBi-03 .MBox {
     display: block;
   }
+  .wrap section.PageBox .PBi-04 .box {
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .wrap section.PageBox .PBi-05 .box01 {
+    padding: 10px 10px 0 10px;
+  }
   .wrap section.PageBox .PBi-05 .box01 h3 {
-    font-size: 6.13333vw;
+    font-size: 6.66667vw;
+    line-height: 7.2vw;
     font-weight: 500;
+  }
+  .wrap section.PageBox .PBi-05 .box01 .ItemBox {
+    margin: 0;
+  }
+  .wrap section.PageBox .PBi-05 .box01 .ItemBox li p {
+    font-size: 5.33333vw;
+    line-height: 6.13333vw;
   }
   .wrap section.PageBox .PBi-05 .box01 .ItemBox li::before {
     font-size: 5.06667vw;
+  }
+  .wrap section.PageBox .PBi-06 .PCBox {
+    display: none;
+  }
+  .wrap section.PageBox .PBi-06 .MBox {
+    display: block;
+  }
+  .wrap section.PageBox .PBi-06 .box01 h2 {
+    font-size: 10.26667vw;
+  }
+  .wrap section.PageBox .PBi-06 .box01 p:nth-child(5) {
+    font-size: 6.66667vw;
   }
   .wrap section.PageBox:nth-child(1) {
     background-color: #0c1323;
     background-image: none;
   }
   .wrap h2 {
-    font-size: 7.2vw;
+    font-size: 8vw;
     line-height: 8vw;
   }
   .wrap h3 {
@@ -724,7 +764,13 @@ body {
     font-weight: 500;
   }
   .wrap .txt {
-    font-size: 4.8vw;
+    font-size: 5.33333vw;
     line-height: 6.4vw;
+  }
+  .wrap .txt-b {
+    font-size: 5.6vw;
+  }
+  .wrap .txt-o {
+    opacity: .6;
   }
 }

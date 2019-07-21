@@ -17,6 +17,7 @@ body {
         align-items: center;
         justify-content: center;
         position: relative;
+
         .PB-inner {
             align-items: flex-start;
             display: flex;
@@ -112,9 +113,6 @@ body {
                 .txt {
                     font-size: 38px;
                 }
-                .MBox {
-                    display: none;
-                }
             }
         }
         .PBi-02 {
@@ -192,9 +190,6 @@ body {
                     100%{
                     color:#d6d6d6;}
                 }
-            }
-            .MBox {
-                display: none;
             }
         }
         .PBi-04 {
@@ -292,6 +287,12 @@ body {
                 align-items: center;
                 flex-direction: column;
             }
+            .PCBox {
+                    display: block;
+                }
+            .MBox {
+                    display: none;
+            }
             .box01 {
                 img {
                     margin-bottom: 30px;
@@ -331,6 +332,14 @@ body {
                 left: 0;
                 width: 100%;
                 height: 200px;
+            }
+        }
+        .PBi-01 .box02, .PBi-03 {
+            .PCBox {
+                    display: block;
+            }
+            .MBox {
+                display: none;
             }
         }
         &:nth-child(1) {
@@ -481,13 +490,12 @@ body {
     .wrap {
         width: 100%;
         height: auto;
+        letter-spacing: 1px;
         section.PageBox {
             height: auto;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,.2);
             .PB-inner {
-                align-items: flex-start;
-                display: flex;
-                justify-content: flex-start;
-                max-width: 1440px;
                 width: 100%;
                 margin: 20px auto 0;
             }
@@ -510,6 +518,15 @@ body {
                     top: 0;
                     margin: 0 auto;
                     position: relative;
+                    .PCBox {
+                        display: none;
+                    }
+                    .MBox {
+                        display: block;
+                    }
+                    .m-logo {
+                        margin: 0 0 10px 0;
+                    }
                     h2 {
                         margin-bottom: 25px;
                         span {
@@ -532,7 +549,7 @@ body {
                     }
                 }
             }
-            .PBi-01, .PBi-03 {
+            .PBi-03 {
                 .PCBox {
                     display: none;
                 }
@@ -540,24 +557,59 @@ body {
                     display: block;
                 }
             }
+            .PBi-04 {
+                .box {
+                    align-items: center;
+                }
+            }
             .PBi-05 {
                 .box01 {
+                    padding: 10px 10px 0 10px;
                     h3 {
-                        font-size: 46/750*100vw;
+                        font-size: 50/750*100vw;
+                        line-height: 54/750*100vw;
                         font-weight: 500;
                     }
-                    .ItemBox li::before {
-                        font-size: 38/750*100vw;
+                    .ItemBox {
+                        margin: 0;
+                        li {
+                            p {
+                            font-size: 40/750*100vw;
+                            line-height: 46/750*100vw;
+                            }
+                            &::before {
+                                font-size: 38/750*100vw;
+                            }
+                        }
                     }
                 }
             }
+            .PBi-06 {
+                .PCBox {
+                    display: none;
+                }
+                .MBox {
+                    display: block;
+                }
+                .box01 {
+                    h2 {
+                        font-size: 77/750*100vw;
+                    }
+                    p {
+                        &:nth-child(5) {
+                            font-size: 50/750*100vw;
+                        }
+                    }
+                }
+            }
+
             &:nth-child(1) {
                 background-color: #0c1323;
                 background-image: none;
             }
         }
         h2 {
-            font-size: 54/750*100vw;
+            font-size: 60/750*100vw;
             line-height: 60/750*100vw;
         }
         h3 {
@@ -565,8 +617,14 @@ body {
             font-weight: 500;
         }
         .txt {
-            font-size: 36/750*100vw;
+            font-size: 40/750*100vw;
             line-height: 48/750*100vw;
+        }
+        .txt-b {
+            font-size: 42/750*100vw;
+        }
+        .txt-o {
+            opacity: .6;
         }
     }
 }
