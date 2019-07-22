@@ -114,28 +114,28 @@ body {
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-1 {
-  -webkit-transform: translate(627px, 821px);
-  transform: translate(627px, 821px);
+  -webkit-transform: translate(490px, 600px);
+  transform: translate(490px, 600px);
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-2 {
-  -webkit-transform: translate(230px, 685px);
-  transform: translate(230px, 685px);
+  -webkit-transform: translate(100px, 460px);
+  transform: translate(100px, 460px);
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-3 {
-  -webkit-transform: translate(237px, 409px);
-  transform: translate(237px, 409px);
+  -webkit-transform: translate(85px, 200px);
+  transform: translate(85px, 200px);
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-4 {
-  -webkit-transform: translate(-230px, -26px);
-  transform: translate(-230px, -26px);
+  -webkit-transform: translate(-230px, -100px);
+  transform: translate(-230px, -100px);
 }
 
 .wrap section.PageBox .PBi-01 .box02 {
   right: 80px;
-  top: 399px;
+  top: 370px;
   position: absolute;
 }
 
@@ -469,6 +469,8 @@ body {
 .wrap section.PageBox:nth-child(1) {
   background-color: #0c131d;
   background-image: url(../images/pg01/Imgbg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
 
 .wrap section.PageBox:nth-child(2) {
