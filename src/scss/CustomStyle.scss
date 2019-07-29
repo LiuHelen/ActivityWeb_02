@@ -142,6 +142,7 @@ body {
             .box02 {
                 img {
                     margin-top: 15px;
+                    width: 100%;
                 }
             }
 
@@ -481,6 +482,204 @@ body {
                 opacity: 1;
                 transition-delay: .8s;
             }
+        }
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .wrap {
+        section.PageBox {
+            padding: 0 20px;
+            .PBi-01 {
+                .box01 {
+                    .ImgItemBox {
+                        &.aaa {
+                            .item {
+                                opacity: 1;
+                            }
+                            .pg01-part-1 {
+                                transform: translate(595px, 630px);
+                            }
+                            .pg01-part-2 {
+                                transform: translate(205px, 490px);
+                            }
+                            .pg01-part-3 {
+                                transform: translate(190px, 230px);
+                            }
+                            .pg01-part-4 {
+                                transform: translate(-130px, -120px);
+                            }
+                        }
+                    }
+                }
+                .box02 {
+                    right: 40px;
+                    top: 320px;
+                    position: absolute;
+                    h2,h3 {
+                        display: inline-block;
+                    }
+                    h2 {
+                        margin-top: 50px;
+                        margin-bottom: 25px;
+                        position: relative;
+                        span {
+                            font-size: 50/1440*100vw;
+                        }
+                    }
+                    .txt {
+                        font-size: 32/1440*100vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1336px) {
+    .wrap {
+        section.PageBox {
+            padding: 0 20px;
+            .PBi-01 {
+                .box01 {
+                    .ImgItemBox {
+                        &.aaa {
+                            .item {
+                                opacity: 1;
+                            }
+                            .pg01-part-1 {
+                                transform: translate(510px, 600px);
+                            }
+                            .pg01-part-2 {
+                                transform: translate(120px, 460px);
+                            }
+                            .pg01-part-3 {
+                                transform: translate(110px, 200px);
+                            }
+                            .pg01-part-4 {
+                                transform: translate(-230px, -120px);
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-child(1) {
+                background-position: -30% 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .wrap {
+        section.PageBox {
+            padding: 0 20px;
+            .PBi-01 {
+                .box01 {
+                    .ImgItemBox {
+                        &.aaa {
+                            .item {
+                                opacity: 1;
+                            }
+                            .pg01-part-1 {
+                                transform: translate(500px, 580px);
+                            }
+                            .pg01-part-2 {
+                                transform: translate(110px, 440px);
+                            }
+                            .pg01-part-3 {
+                                transform: translate(100px, 180px);
+                            }
+                            .pg01-part-4 {
+                                transform: translate(-230px, -120px);
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-child(1) {
+                background-position: -40% 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .wrap {
+        section.PageBox {
+            padding: 0 20px;
+            .PBi-01 {
+                .box01 {
+                    .ImgItemBox {
+                        &.aaa {
+                            .item {
+                                opacity: 1;
+                            }
+                            .pg01-part-1 {
+                                width: 20%;
+                                // max-width: 20%;
+                                transform: translate(330px, 135px);
+                            }
+                            .pg01-part-2 {
+                                width: 100%;
+                                max-width: 20%;
+                                transform: translate(25px, 40px);
+                            }
+                            .pg01-part-3 {
+                                transform: translate(5px, -190px);
+                            }
+                            .pg01-part-4 {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                .box02 {
+                    right: 40px;
+                    top: 230px;
+                    position: absolute;
+                    h2,h3 {
+                        display: inline-block;
+                    }
+                    h2 {
+                        margin-top: 50px;
+                        margin-bottom: 25px;
+                        position: relative;
+                        span {
+                            font-size: 60/1024*100vw;
+                        }
+                    }
+                    .txt {
+                        font-size: 26/1024*100vw;
+                    }
+                }
+            }
+            .PBi-02 {
+                .box01 {
+                    h2 {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+            .PBi-04 {
+                .box01 {
+                    flex: auto;
+                }
+            }
+            .PBi-05 {
+                .box01 {
+                    h3 {
+                        font-size: 28px;
+                    }
+                }
+            }
+            &:nth-child(1) {
+                background-image: url(../images/pg01/Imgbg-md.png);
+                background-position: left center;
+            }
+        }
+        h2 {
+            font-size: 40/1024*100vw;
         }
     }
 }
