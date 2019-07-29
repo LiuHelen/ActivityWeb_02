@@ -323,13 +323,39 @@ body {
                     height: auto;
                 }
             }
-            &:after {
+            &:before {
                 content: url(../images/pg06/item-bottom.png);
                 position: absolute;
                 bottom: 0;
                 left: 0;
                 width: 100%;
                 height: 200px;
+            }
+            &:after {
+                content: url(../images/pg06/item-bottom-shine.png);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 200px;
+                animation: opacity-change .9s ease-in-out infinite;
+            }
+            @keyframes opacity-change {
+                0% {
+                    opacity: 0;
+                }
+                25% {
+                    opacity: .5;
+                }
+                50% {
+                    opacity: 1;
+                }
+                75% {
+                    opacity: .5;
+                }
+                100% {
+                    opacity: 0;
+                }
             }
         }
         .PBi-01 .box02, .PBi-03 {
