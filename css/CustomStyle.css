@@ -35,7 +35,7 @@ body {
   display: flex;
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
-  max-width: 1440px;
+  max-width: 1200px;
   width: 100%;
   margin: 20px auto;
   padding: 20px;
@@ -114,23 +114,23 @@ body {
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-1 {
-  -webkit-transform: translate(490px, 600px);
-  transform: translate(490px, 600px);
+  -webkit-transform: translate(360px, 610px);
+  transform: translate(360px, 610px);
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-2 {
-  -webkit-transform: translate(100px, 460px);
-  transform: translate(100px, 460px);
+  -webkit-transform: translate(-20px, 460px);
+  transform: translate(-20px, 460px);
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-3 {
-  -webkit-transform: translate(85px, 200px);
-  transform: translate(85px, 200px);
+  -webkit-transform: translate(-35px, 200px);
+  transform: translate(-35px, 200px);
 }
 
 .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-4 {
-  -webkit-transform: translate(-230px, -100px);
-  transform: translate(-230px, -100px);
+  -webkit-transform: translate(-360px, -110px);
+  transform: translate(-360px, -110px);
 }
 
 .wrap section.PageBox .PBi-01 .box02 {
@@ -199,7 +199,7 @@ body {
 
 .wrap section.PageBox .PBi-02 .box02 img {
   margin-top: 15px;
-  width: 100%;
+  width: 120%;
 }
 
 .wrap section.PageBox .PBi-03 {
@@ -308,11 +308,13 @@ body {
 }
 
 .wrap section.PageBox .PBi-04 .box02 {
-  width: 800px;
+  width: 680px;
+  margin-bottom: -110px;
+  position: relative;
 }
 
 .wrap section.PageBox .PBi-04 .box02 img {
-  width: 100%;
+  width: 140%;
   height: auto;
 }
 
@@ -342,7 +344,7 @@ body {
 
 .wrap section.PageBox .PBi-05 .box01 h3 {
   color: #c3992f;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .wrap section.PageBox .PBi-05 .box01 .ItemBox {
@@ -352,8 +354,8 @@ body {
 
 .wrap section.PageBox .PBi-05 .box01 .ItemBox li {
   counter-increment: step-counter;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -379,6 +381,7 @@ body {
 
 .wrap section.PageBox .PBi-05 .box02 {
   width: 800px;
+  box-shadow: -12px 14px 2px rgba(13, 13, 13, 0.6), -22px 24px 2px rgba(13, 13, 13, 0.4);
 }
 
 .wrap section.PageBox .PBi-05 .box02 img {
@@ -506,6 +509,25 @@ body {
   }
 }
 
+.wrap section.PageBox .side-bar {
+  width: 66px;
+  height: 66px;
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+  z-index: 100;
+}
+
+.wrap section.PageBox .side-bar a {
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+.wrap section.PageBox .side-bar a i {
+  line-height: 66px;
+}
+
 .wrap section.PageBox .PBi-01 .box02 .PCBox, .wrap section.PageBox .PBi-03 .PCBox {
   display: block;
 }
@@ -542,7 +564,7 @@ body {
 }
 
 .wrap h2 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 1.4px;
   color: #c3992f;
@@ -550,12 +572,12 @@ body {
 
 .wrap h3 {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 
 .wrap .txt {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 40px;
 }
 
@@ -766,6 +788,13 @@ body {
   .wrap section.PageBox .PBi-01 .box01 .ImgItemBox.aaa .pg01-part-4 {
     -webkit-transform: translate(-230px, -120px);
     transform: translate(-230px, -120px);
+  }
+  .wrap section.PageBox .PBi-02 .box02 img {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .wrap section.PageBox .PBi-04 .box02 img {
+    width: 110%;
   }
   .wrap section.PageBox:nth-child(1) {
     background-position: -30% 70%;
