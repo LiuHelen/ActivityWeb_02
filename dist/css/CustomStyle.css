@@ -152,6 +152,10 @@ body {
   font-size: 60px;
 }
 
+.wrap section.PageBox .PBi-01 .box02 .sec-title p {
+  display: inline-block;
+}
+
 .wrap section.PageBox .PBi-01 .box02 .txt {
   font-size: 38px;
 }
@@ -937,20 +941,21 @@ body {
   .wrap section.PageBox .PBi-01 .box02 .m-logo {
     margin: 0 0 10px 0;
   }
+  .wrap section.PageBox .PBi-01 .box02 .sec-title p {
+    display: block;
+    margin-top: 10px;
+  }
   .wrap section.PageBox .PBi-01 .box02 h2 {
-    margin-bottom: 25px;
+    margin: 25px 0;
   }
   .wrap section.PageBox .PBi-01 .box02 h2 span {
-    font-size: 10.66667vw;
+    font-size: 13.33333vw;
   }
   .wrap section.PageBox .PBi-01 .box02 .txt {
-    font-size: 5.86667vw;
+    font-size: 6.66667vw;
   }
   .wrap section.PageBox .PBi-01 .box02 img {
     margin: 40px 0;
-    width: 100%;
-  }
-  .wrap section.PageBox .PBi-02 .box02 img {
     width: 100%;
   }
   .wrap section.PageBox .PBi-03 .PCBox {
@@ -962,6 +967,12 @@ body {
   .wrap section.PageBox .PBi-04 .box {
     -webkit-align-items: center;
     align-items: center;
+  }
+  .wrap section.PageBox .PBi-04 .box01 p {
+    display: none;
+  }
+  .wrap section.PageBox .PBi-04 .box02 {
+    margin-bottom: 0;
   }
   .wrap section.PageBox .PBi-05 .box01 {
     padding: 10px 10px 0 10px;
@@ -981,6 +992,9 @@ body {
   .wrap section.PageBox .PBi-05 .box01 .ItemBox li::before {
     font-size: 5.06667vw;
   }
+  .wrap section.PageBox .PBi-05 .box02 {
+    display: none;
+  }
   .wrap section.PageBox .PBi-06 .PCBox {
     display: none;
   }
@@ -996,6 +1010,9 @@ body {
   .wrap section.PageBox:nth-child(1) {
     background-color: #0c1323;
     background-image: none;
+  }
+  .wrap section.PageBox:nth-child(2) {
+    display: none;
   }
   .wrap h2 {
     font-size: 8vw;

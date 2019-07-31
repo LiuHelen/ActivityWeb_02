@@ -107,6 +107,11 @@ body {
                         font-size: 60px;
                     }
                 }
+                .sec-title {
+                    p {
+                        display: inline-block;
+                    }
+                }
                 .txt {
                     font-size: 38px;
                 }
@@ -788,24 +793,23 @@ body {
                     .m-logo {
                         margin: 0 0 10px 0;
                     }
+                    .sec-title {
+                        p {
+                            display: block;
+                            margin-top: 10px;
+                        }
+                    }
                     h2 {
-                        margin-bottom: 25px;
+                        margin: 25px 0;
                         span {
-                            font-size: 80/750*100vw;
+                            font-size: 100/750*100vw;
                         }
                     }
                     .txt {
-                        font-size: 44/750*100vw;
+                        font-size: 50/750*100vw;
                     }
                     img {
                         margin: 40px 0;
-                        width: 100%;
-                    }
-                }
-            }
-            .PBi-02 {
-                .box02 {
-                    img {
                         width: 100%;
                     }
                 }
@@ -821,6 +825,14 @@ body {
             .PBi-04 {
                 .box {
                     align-items: center;
+                }
+                .box01 {
+                    p {
+                        display: none;
+                    }
+                }
+                .box02 {
+                    margin-bottom: 0;
                 }
             }
             .PBi-05 {
@@ -843,6 +855,9 @@ body {
                             }
                         }
                     }
+                }
+                .box02 {
+                    display: none;
                 }
             }
             .PBi-06 {
@@ -867,6 +882,9 @@ body {
             &:nth-child(1) {
                 background-color: #0c1323;
                 background-image: none;
+            }
+            &:nth-child(2) {
+                display: none;
             }
         }
         h2 {

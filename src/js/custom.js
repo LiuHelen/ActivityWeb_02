@@ -91,9 +91,6 @@ $(document).ready(function () {
                 canMove = true;
             }, 500);
         });
-
-        
-
     }
 
     else {
