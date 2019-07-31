@@ -94,7 +94,7 @@ $(document).ready(function () {
     }
 
     else {
-        $('.PageBox').addClass('animation');
+        $('.PageBox').addClass('animation');/* 畫面載入直接全部添加 animation，所以動畫都會一次跑出來*/ 
     }
 
 });
