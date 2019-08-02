@@ -81,7 +81,6 @@ $(window).on('load', function () {
                 return 100*i;
                 }
             });
-            
 
             canMove = false;
 

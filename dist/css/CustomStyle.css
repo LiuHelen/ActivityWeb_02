@@ -513,25 +513,6 @@ body {
   }
 }
 
-.wrap section.PageBox .side-bar {
-  width: 66px;
-  height: 66px;
-  position: relative;
-  bottom: 20px;
-  right: 25px;
-  z-index: 100;
-}
-
-.wrap section.PageBox .side-bar a {
-  color: #fff;
-  text-align: center;
-  display: block;
-}
-
-.wrap section.PageBox .side-bar a i {
-  line-height: 66px;
-}
-
 .wrap section.PageBox .PBi-01 .box02 .PCBox, .wrap section.PageBox .PBi-03 .PCBox {
   display: block;
 }
@@ -547,24 +528,12 @@ body {
   background-position: left bottom;
 }
 
-.wrap section.PageBox:nth-child(2) {
+.wrap section.PageBox:nth-child(2), .wrap section.PageBox:nth-child(4), .wrap section.PageBox:nth-child(6) {
   background-image: linear-gradient(150deg, #141414 10%, #09203a 75%, #141414 100%);
 }
 
-.wrap section.PageBox:nth-child(3) {
+.wrap section.PageBox:nth-child(3), .wrap section.PageBox:nth-child(5) {
   background-image: linear-gradient(-150deg, #141414 10%, #09203a 50%, #141414 100%);
-}
-
-.wrap section.PageBox:nth-child(4) {
-  background-image: linear-gradient(150deg, #141414 10%, #09203a 50%, #141414 100%);
-}
-
-.wrap section.PageBox:nth-child(5) {
-  background-image: linear-gradient(-150deg, #141414 10%, #09203a 50%, #141414 100%);
-}
-
-.wrap section.PageBox:nth-child(6) {
-  background-image: linear-gradient(150deg, #141414 10%, #09203a 50%, #141414 100%);
 }
 
 .wrap h2 {

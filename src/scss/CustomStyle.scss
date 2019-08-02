@@ -21,7 +21,6 @@ body {
             align-items: flex-start;
             display: flex;
             justify-content: flex-start;
-            // max-width: 1440px;
             max-width: 1200px;
             width: 100%;
             margin: 20px auto;
@@ -38,9 +37,7 @@ body {
                 flex-direction: column;
             }
             .box01 {
-                // flex: 1;
                 img {
-                    // width: 100%;
                     max-width: 240%;
                     height: auto;
                 }
@@ -148,7 +145,6 @@ body {
             .box02 {
                 img {
                     margin-top: 15px;
-                    // width: 100%;
                     width: 120%;
                 }
             }
@@ -192,8 +188,7 @@ body {
                 @keyframes neon-shine{
                     0%{opacity:1;}
                     90%{opacity:.5;}
-                    100%{
-                    color:#d6d6d6;}
+                    100%{color:#d6d6d6;}
                 }
             }
         }
@@ -351,39 +346,11 @@ body {
                 animation: opacity-change .9s ease-in-out infinite;
             }
             @keyframes opacity-change {
-                0% {
-                    opacity: 0;
-                }
-                25% {
-                    opacity: .5;
-                }
-                50% {
-                    opacity: 1;
-                }
-                75% {
-                    opacity: .5;
-                }
-                100% {
-                    opacity: 0;
-                }
-            }
-        }
-        .side-bar {
-            width: 66px;
-            height: 66px;
-            
-            // background-color: #ddd;
-            position: relative;
-            bottom: 20px;
-            right: 25px;
-            z-index: 100;
-            a {
-                color: #fff;
-                text-align: center;
-                display: block;
-                i {
-                    line-height: 66px;
-                }
+                0% {opacity: 0;}
+                25% {opacity: .5;}
+                50% { opacity: 1;}
+                75% {opacity: .5;}
+                100% {opacity: 0;}
             }
         }
         .PBi-01 .box02, .PBi-03 {
@@ -400,20 +367,11 @@ body {
             background-repeat: no-repeat;
             background-position: left bottom;
         }
-        &:nth-child(2) {
+        &:nth-child(2), &:nth-child(4), &:nth-child(6) {
             background-image: linear-gradient(150deg, rgb(20, 20, 20) 10%, rgb(9, 32, 58) 75%, rgb(20, 20, 20) 100%);
         }
-        &:nth-child(3) {
+        &:nth-child(3), &:nth-child(5) {
             background-image: linear-gradient(-150deg, rgb(20, 20, 20) 10%,rgb(9, 32, 58) 50%, rgb(20, 20, 20) 100%);
-        }
-        &:nth-child(4) {
-            background-image: linear-gradient(150deg, rgb(20, 20, 20) 10%,rgb(9, 32, 58) 50%, rgb(20, 20, 20) 100%);
-        }
-        &:nth-child(5) {
-            background-image: linear-gradient(-150deg, rgb(20, 20, 20) 10%, rgb(9, 32, 58) 50%, rgb(20, 20, 20) 100%);
-        }
-        &:nth-child(6) {
-            background-image: linear-gradient(150deg, rgb(20, 20, 20) 10%, rgb(9, 32, 58) 50%, rgb(20, 20, 20) 100%);
         }
     }
     h2 {
@@ -696,7 +654,6 @@ body {
                             }
                             .pg01-part-1 {
                                 width: 20%;
-                                // max-width: 20%;
                                 transform: translate(330px, 135px);
                             }
                             .pg01-part-2 {
@@ -812,12 +769,12 @@ body {
                         animation: change 5s ease-in-out 1s infinite;
                     }
                     @keyframes change {
-                        0% { color: #EF476F;}
-                        25% { color: #FFD166;}
-                        50% { color: #06D6A0;}
-                        75% { color: #118AB2;}
-                        90% { color: #FFD166;}
-                        100% { color: #EF476F;}
+                        0% {color: #EF476F;}
+                        25% {color: #FFD166;}
+                        50% {color: #06D6A0;}
+                        75% {color: #118AB2;}
+                        90% {color: #FFD166;}
+                        100% {color: #EF476F;}
                     }
                     .sec-title {
                         text-align: center;
@@ -932,21 +889,11 @@ body {
                     animation: opacity-change .9s ease-in-out infinite;
                 }
                 @keyframes opacity-change {
-                    0% {
-                        opacity: 0;
-                    }
-                    25% {
-                        opacity: .5;
-                    }
-                    50% {
-                        opacity: 1;
-                    }
-                    75% {
-                        opacity: .5;
-                    }
-                    100% {
-                        opacity: 0;
-                    }
+                    0% {opacity: 0;}
+                    25% {opacity: .5;}
+                    50% {opacity: 1;}
+                    75% {opacity: .5;}
+                    100% {opacity: 0;}
                 }
             }
 
