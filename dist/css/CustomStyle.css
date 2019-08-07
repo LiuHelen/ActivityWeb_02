@@ -427,7 +427,7 @@ body {
 
 .wrap section.PageBox .PBi-06 .box01 h2 {
   font-size: 77px;
-  margin: 25px 0 40px;
+  margin: 25px 0 20px;
 }
 
 .wrap section.PageBox .PBi-06 .box01 p:nth-child(5) {
@@ -446,6 +446,30 @@ body {
 .wrap section.PageBox .PBi-06 .box01 .ml6 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+.wrap section.PageBox .PBi-06 .box01 .QrcodeBox {
+  width: 45%;
+  margin-top: 20px;
+}
+
+.wrap section.PageBox .PBi-06 .box01 .Btn-custom {
+  border: 0;
+  background: none;
+  color: #aaaebc;
+  border: 3px solid #aaaebc;
+  padding: 10px 0;
+  width: 45%;
+  margin: 15px 0;
+  text-align: center;
+  font-size: 24px;
+  transition: color .5s, background .8s;
+  text-decoration: none;
+}
+
+.wrap section.PageBox .PBi-06 .box01 .Btn-custom:hover {
+  color: #333;
+  background: #aaaebc;
 }
 
 .wrap section.PageBox .PBi-06 .box02 {
@@ -688,13 +712,6 @@ body {
   transition-delay: .5s;
 }
 
-.wrap .PageBox.animation .block-06 p:nth-child(5) {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  opacity: 1;
-  transition-delay: .8s;
-}
-
 @media screen and (max-width: 1500px) {
   .wrap section.PageBox {
     padding: 0 20px;
@@ -886,7 +903,7 @@ body {
   }
   .wrap section.PageBox .PB-inner {
     width: 100%;
-    margin: 20px auto 0;
+    margin: 0 auto;
   }
   .wrap section.PageBox .PBi-04, .wrap section.PageBox .PBi-05, .wrap section.PageBox .PBi-06 {
     -webkit-flex-wrap: wrap;
@@ -1040,10 +1057,40 @@ body {
     display: block;
   }
   .wrap section.PageBox .PBi-06 .box01 h2 {
-    font-size: 10.26667vw;
+    margin: 15px 0 20px;
+    font-size: 8vw;
   }
   .wrap section.PageBox .PBi-06 .box01 p:nth-child(5) {
     font-size: 6.66667vw;
+  }
+  .wrap section.PageBox .PBi-06 .box01 img {
+    margin-bottom: 0;
+  }
+  .wrap section.PageBox .PBi-06 .box01 .txt {
+    font-size: 4.53333vw;
+    line-height: 4.53333vw;
+  }
+  .wrap section.PageBox .PBi-06 .box01 .b-logo {
+    width: 40%;
+  }
+  .wrap section.PageBox .PBi-06 .box01 .QrcodeBox {
+    width: 40%;
+  }
+  .wrap section.PageBox .PBi-06 .box01 .Btn-custom {
+    border: 0;
+    background: none;
+    color: #aaaebc;
+    border: 3px solid #aaaebc;
+    padding: 10px 0;
+    width: 40%;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 3.2vw;
+    transition: color .5s, background .8s;
+  }
+  .wrap section.PageBox .PBi-06 .box01 .Btn-custom:active {
+    color: #333;
+    background: #aaaebc;
   }
   .wrap section.PageBox .PBi-06:before {
     content: url(../images/pg06/m-item-bottom.png);
