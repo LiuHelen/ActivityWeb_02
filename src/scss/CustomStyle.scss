@@ -766,6 +766,9 @@ body {
 								width: 100%;
 								margin: 0 auto;
 						}
+						.mouse {
+							left: calc(50% - 30px);
+						}
 						.PBi-04, .PBi-05, .PBi-06 {
 								flex-wrap: wrap;
 						}
