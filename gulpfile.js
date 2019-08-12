@@ -55,7 +55,7 @@ gulp.task('sass', function (callback) {
         gulp.src(`${src.css}/**/*.{sass,scss,css}`),
         sass({
             //壓縮程度: nested, expanded, compact, compressed
-            outputStyle: 'expanded'
+            outputStyle: 'compressed'
         }),
         autoprefixer({
             //自動增加前綴
